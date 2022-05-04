@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body{
+    background: url(asserts/background2.svg) no-repeat;
+    background-size: cover;
+    border-color: #FF4656;
+    font-family: 'Open Sans', sans-serif;    
+    color: #FFFFFF;
+}
+.topo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.topo h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.agents span {
+    position: absolute;
+    width: 305px;
+    height: 76px;
+    left: 151px;
+    top: 288px;
+
+    font-family: 'Open Sans';
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-bottom: 50px;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: transparent;
+
+}
+.agents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.border-caracter {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    z-index: -1;
+}
+.agents-card{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    left: 159px;
+    top: 335px;
+    background-color: #FF4656;
+    margin: 15px;
+    border-top-left-radius: 1.5em;
+    z-index: 20;
+}
+
+.agents-card h3 {
+    text-align: center;
+    color: #FF4656;
+}
+
+.icons-social{
+    display: flex;
+    flex-direction: row;
+}
+
+.rede-social {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 151px;
+    margin: auto 2% auto 2%;
+}
+
+@media (max-width: 1120px) {
+
+
+}
+
